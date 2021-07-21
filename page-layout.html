@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Layout</title>
+    <style>
+      body {
+        width: 940px;
+        margin: 0 auto;
+        font: 10pt "Georgia", Arial, sans-serif;
+      }
+      header,
+      section,
+      article,
+      aside,
+      footer {
+        display: block;
+      }
+      header,
+      footer {
+        padding: 0px;
+        text-align: center;
+      }
+      aside {
+        float: left;
+      }
+      section {
+        float: right;
+        width: 700px;
+        padding-left: 20px;
+        border-left: 2px dotted darkgoldenrod;
+      }
+      footer {
+        clear: both !important;
+        width: 940px;
+        height: 100px;
+        border: aqua solid 2px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Page Layout</h1>
+    </header>
+    <hr />
+    <aside>
+      <figure>
+        <img
+          class="hat"
+          src="/Grad Hat.jpg"
+          height="150px"
+          width="120px"
+          alt="graduation black hat"
+        />
+        <figcaption>Graduation</figcaption>
+      </figure>
+      <div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </aside>
+    <section>
+      <article>
+        <header>
+          <h1><u>Article 1</u></h1>
+        </header>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In animi
+            dolorum saepe repellat magnam accusantium illo optio deleniti ex
+            nemo? Excepturi ipsum tempore cupiditate culpa error enim unde
+            exercitationem illum, eligendi, molestiae, asperiores quibusdam.
+            Tempora quia iusto saepe mollitia ullam sed, assumenda placeat
+            impedit ea vero atque quis accusamus ad.
+          </p>
+        </div>
+        <p>#end of article 1</p>
+      </article>
+      <article>
+        <header>
+          <h1><u>Article 2</u></h1>
+        </header>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In animi
+            dolorum saepe repellat magnam accusantium illo optio deleniti ex
+            nemo? Excepturi ipsum tempore cupiditate culpa error enim unde
+            exercitationem illum, eligendi, molestiae, asperiores quibusdam.
+            Tempora quia iusto saepe mollitia ullam sed, assumenda placeat
+            impedit ea vero atque quis accusamus ad.
+          </p>
+        </div>
+        <p>#end of article 2</p>
+        <hr />
+      </article>
+    </section>
+    <footer>Copyright(C) - IvyTrains</footer>
+  </body>
+</html>
