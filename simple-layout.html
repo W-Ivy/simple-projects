@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        /* border box ensures that the height and width are regulated */
+        box-sizing: border-box;
+      }
+      body {
+        background-color: skyblue;
+        color: white;
+        text-align: center;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header,
+      nav,
+      section,
+      footer {
+        border: 1px solid lightseagreen;
+        margin-bottom: 10px;
+        border-radius: 3px;
+      }
+      header,
+      footer {
+        padding: 20px 0;
+      }
+      nav,
+      section {
+        padding: 200px 0;
+      }
+      .container {
+        width: 960px;
+        margin: 0 auto;
+      }
+      nav,
+      section,
+      footer {
+        float: left;
+      }
+      nav {
+        width: 200px;
+        margin-right: 10px;
+      }
+      section {
+        width: 750px;
+      }
+      footer {
+        width: 960px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Project: Simple Layout</h1>
+      <header>HEADER</header>
+      <nav>NAV</nav>
+      <section>SECTION</section>
+      <footer>FOOTER</footer>
+    </div>
+  </body>
+</html>
